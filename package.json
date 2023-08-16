@@ -1,0 +1,60 @@
+{
+  "name": "vue3-color-gradient-picker",
+  "version": "1.0.1",
+  "author": "bamzc",
+  "description": "Color and gradient picker for vue3.js",
+  "main": "./dist/index.js.mjs",
+  "module": "./dist/index.js.mjs",
+  "browser": "./dist/index-umd.js.umd.js",
+  "style": "./dist/style.css",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "keywords": [
+      "vue",
+      "vue.js",
+      "vue3",
+      "color-picker",
+      "picker",
+      "gradient"
+  ],
+  "tags": [
+      "vue",
+      "vue.js",
+      "vue3",
+      "color-picker",
+      "gradient"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.2",
+    "@types/node": "^20.4.9",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "cb-vue-color-gradient-picker": "^1.0.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "prettier": "^3.0.0",
+    "sass": "^1.65.1",
+    "vite": "^4.4.6"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Bamzc/vue3-color-gradient-picker.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bamzc/vue3-color-gradient-picker.git.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bamzc/vue3-color-gradient-picker.git/issues"
+  }
+}
